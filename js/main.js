@@ -21,7 +21,7 @@
 		resultMessage.textContent = RLArray[random];
 
 		// ランダムで決めた左右と、腹筋ボタンの色合いを一致させる。'みーぎ'に決まったら、右胸筋が黄色に光る。
-		if (RLArray[random] === 'やーる!') {
+		if (RLArray[random] === 'やーる！') {
 			pectRight.style.backgroundColor = '#FFFF00';
 			pectLeft.style.backgroundColor = '#FFCCCC';
 		} else {
