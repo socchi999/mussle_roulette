@@ -1,0 +1,153 @@
+body{
+	background: #CCFFCC;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 600px;
+	margin: 25px auto;
+}
+
+.top-sentence {
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.notice {
+	font-size: 14px;
+	margin: 0 0 0 250px;
+}
+
+.btns {
+	margin: 20px 0;
+}
+
+.btns p {
+	font-weight: bold;
+	color: #FF3300;
+	width: 225px;
+	text-align: center;
+}
+
+#btn-yes {
+	cursor: pointer;
+	display: inline-block;
+	box-sizing: boder-box;
+	padding: 10px;
+	width: 90px;
+	background: #3897fd;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+
+#btn-no {
+	cursor: pointer;
+	display: inline-block;
+	box-sizing: boder-box;
+	padding: 10px;
+	width: 90px;
+	background: #3897fd;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;	
+}
+
+.result {
+	width: 225px;
+	height: 300px;
+}
+
+#result-sentence {
+	font-weight: bold;
+	margin: 20px　0;
+	height: 20px;
+}
+
+#result-sentence.hidden {
+	display: none;
+}
+
+#mussle {
+	/*width: 225px;*/
+	margin: 20px 0;
+	height: 120px;
+}
+
+#mussle.hidden {
+	display: none;
+}
+
+#face {
+	width: 60px;
+	margin: 0 auto;
+	height: 60px;
+	border-radius: 50%;
+	background: #FFCCCC;
+}
+
+#p-right {
+	cursor: pointer;
+	display: inline-block;
+	box-sizing: boder-box;
+	padding: 10px;
+	width: 90px;
+	background: #FFCCCC;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+
+#p-left {
+	cursor: pointer;
+	display: inline-block;
+	box-sizing: boder-box;
+	padding: 10px;
+	width: 90px;
+	background: #FFCCCC;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;	
+}
+
+#btn-watch-result {
+	cursor: pointer;
+	box-sizing: boder-box;
+	padding: 10px;
+	width: 150px;
+	margin: 0 auto;
+	background: #CC99FF;
+	border-radius: 5px;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+}
+
+#btn-watch-result.hidden {
+	display: none;
+}
+
+#result-message {
+	font-size: 20px;
+	color: #FF3300;
+	margin: 20px 0;
+	height: 20px;
+	text-align: center;
+}
+
+#reset {
+	text-decoration: underline;
+	cursor: pointer;
+	position: absolute;
+	margin: 10px auto;
+	height: 20px;
+}
+
+#reset.hidden {
+	display: none;
+}
